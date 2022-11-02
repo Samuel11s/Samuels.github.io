@@ -1,0 +1,132 @@
+.gr_infos
+    {
+        display: inline-block;
+        padding: 30px 30px;
+        width:100%;
+        height:100%;
+    }
+.gr_infos h3
+    {
+        margin-left:5px;
+        position: relative;
+    }
+.gr_infos ul li a 
+    {
+        text-decoration:none;
+        position:relative;
+        padding: 5px 5px;
+        text-align:justify;
+        color:rgba(245, 245, 245, 0.712);
+    }
+.gr_infos ul
+    {
+        list-style-type:none;
+        position:relative;
+    }
+.gr_infos ul li
+    {
+        margin-top: 20px;
+        position:relative;
+    }
+.info_1
+    {
+        float: left;
+        margin-left: 20px;
+        width:20%;
+        text-align:left;
+    }
+.info_2
+    {
+        float: left;
+        margin-left: 20px;
+        width:20%;
+        text-align:left;
+    }
+.info_3
+    {
+        float: left;
+        margin-left: 20px;
+        width:20%;
+        text-align:left;
+    }
+
+.info_4
+    {
+        float: left;
+        margin-left: 20px;
+        width:20%;
+        text-align:left;
+    }
+.link:hover
+    {
+        margin-left: -20px;
+        text-decoration: underline;
+    }
+.follow
+    {
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        width:70% ;
+    }
+.follow_title
+    {
+        text-align: center;
+    }
+.follow_slinks, .wt, .yt, .fb, .st, .tw
+    {
+        text-align: center;
+        width: 50%;
+        margin-left: 35%;        
+        cursor:pointer;        
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 2s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+              
+        @keyframes shake 
+        {
+          0% { transform: translate(1px, 1px) rotate(0deg); }
+          10% { transform: translate(-1px, -2px) rotate(-1deg); }
+          20% { transform: translate(-3px, 0px) rotate(1deg); }
+          30% { transform: translate(3px, 2px) rotate(0deg); }
+          40% { transform: translate(1px, -1px) rotate(1deg); }
+          50% { transform: translate(-1px, 2px) rotate(-1deg); }
+          60% { transform: translate(-3px, 1px) rotate(0deg); }
+          70% { transform: translate(3px, 1px) rotate(-1deg); }
+          80% { transform: translate(-1px, -1px) rotate(1deg); }
+          90% { transform: translate(1px, 2px) rotate(0deg); }
+          100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+.follow_slinks, .wt:hover, .yt:hover, .fb:hover, .st:hover, .tw:hover 
+    {                
+        -webkit-filter: none; /* Safari 6.0 - 9.0 */
+        filter: none;
+        animation: none;
+    }
+.follow_links
+    {
+        margin-left: 5px;
+        width:13%;
+        cursor:pointer;
+        float: left;
+        position: relative;
+    }
+.follow_olinks
+    {
+        display: block;
+        float: left;
+        position: relative;
+    }
+.follow_olinks a
+    {
+        margin-left: 10px;
+    }
+.follow_olinks:hover
+    {
+        text-decoration: none;
+    }
